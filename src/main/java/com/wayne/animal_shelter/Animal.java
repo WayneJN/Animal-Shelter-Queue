@@ -33,5 +33,18 @@ abstract class Animal {
         return this.order < other.getOrder();
     }
 
-
+    //Need a class for dogs. Inherits animal class. This allows "Dog" to have the same fields as Animal
+    class Dog extends Animal {
+        //Need a dog constructor
+        public Dog(String name) {
+            super(name);
+        }
+    }
+    //Same thing for cats. Saves from Duplicating code
+    class Cat extends Animal {
+        public Cat(String name) {
+            super(name);
+        }
+    }
 }
+
