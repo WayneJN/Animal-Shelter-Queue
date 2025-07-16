@@ -1,7 +1,7 @@
-🐾 Animal Shelter Queue System
+*** 🐾 Animal Shelter Queue System
 A Java application that simulates the queue logic used by an animal shelter to manage adoptions. The shelter only houses dogs and cats, and follows strict first-in, first-out (FIFO) rules for processing animals.
 
-📌 Problem Description
+** 📌 Problem Description
 The animal shelter must support the following adoption rules:
 
 People can adopt the oldest animal overall (dequeueAny).
@@ -12,7 +12,7 @@ They cannot choose a specific animal—only by type and order.
 
 The application maintains separate queues for dogs and cats while tracking arrival order.
 
-🧠 Concepts Demonstrated
+** 🧠 Concepts Demonstrated
 Inheritance and polymorphism via Animal, Dog, and Cat classes.
 
 Queue data structures using Java’s LinkedList.
@@ -23,7 +23,7 @@ Modular design with clean separation of responsibilities.
 
 Spring Boot setup for future scalability.
 
-📦 Project Structure
+*** 📦 Project Structure
 src/main/java/com/wayne/animal_shelter/
 ├── Animal.java          # Abstract base class
 ├── Dog.java             # Dog class extending Animal
@@ -46,7 +46,7 @@ Adopting oldest cat: Cat named Whiskers [order=1]
 Is cat queue empty? false
 Note: Make sure your Animal class has a proper toString() method to display names clearly.
 
-✅ Testing
+*** ✅ Testing
 Basic context verification is in place using Spring Boot’s default test scaffold:
 
 java
@@ -59,7 +59,7 @@ public class AnimalShelterApplicationTests {
 }
 This can be expanded in future phases to include proper unit and integration tests.
 
-🧰 Technologies Used
+*** 🧰 Technologies Used
 Java 17+
 
 Spring Boot 3.5+
