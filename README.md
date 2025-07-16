@@ -26,15 +26,10 @@ Spring Boot setup for future scalability.
 ### 📦 Project Structure
 src/main/java/com/wayne/animal_shelter/
 - ├── Animal.java          # Abstract base class
-- 
 - ├── Dog.java             # Dog class extending Animal
-- 
 - ├── Cat.java             # Cat class extending Animal
-- 
 - ├── AnimalShelter.java   # Queue logic implementation
-- 
 - ├── AnimalShelterApplication.java    # Spring Boot entry point
-- 
 - ├── AnimalShelterDemo.java           # Console-based example run
   
 # 🚀 How to Run
@@ -58,15 +53,22 @@ Basic context verification is in place using Spring Boot’s default test scaffo
 
 java
 @SpringBootTest
+
 public class AnimalShelterApplicationTests {
+
     @Test
+    
     void contextLoads() {
+    
         // Verifies Spring application bootstraps correctly
+        
     }
+    
 }
+
 This can be expanded in future phases to include proper unit and integration tests.
 
-### 🧰 Technologies Used
+## 🧰 Technologies Used
 Java 17+
 
 Spring Boot 3.5+
