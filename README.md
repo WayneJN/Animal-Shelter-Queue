@@ -25,21 +25,27 @@ Spring Boot setup for future scalability.
 
 ### 📦 Project Structure
 src/main/java/com/wayne/animal_shelter/
-- ├── Animal.java          # Abstract base class
-- ├── Dog.java             # Dog class extending Animal
-- ├── Cat.java             # Cat class extending Animal
-- ├── AnimalShelter.java   # Queue logic implementation
-- ├── AnimalShelterApplication.java    # Spring Boot entry point
-- ├── AnimalShelterDemo.java           # Console-based example run
-  
+├── model/
+│   ├── Animal.java          # Abstract base class
+│   ├── Dog.java             # Dog class extending Animal
+│   └── Cat.java             # Cat class extending Animal
+├── service/
+│   └── AnimalShelter.java   # Queue logic implementation
+├── AnimalShelterApplication.java    # Spring Boot entry point
+└── AnimalShelterDemo.java           # Console-based demo
+
 # 🚀 How to Run
-Use the AnimalShelterDemo class to observe shelter behavior in a console environment:
+ Note: `AnimalShelterDemo.java` is located in `/src/test/java/` for demonstration purposes.
+
 
 bash
-
-# Run the demo class
+# Compile and run the demo class
+javac com/wayne/animal_shelter/AnimalShelterDemo.java
 java com.wayne.animal_shelter.AnimalShelterDemo
-Expected output:
+
+Or if using IntelliJ:
+
+Simply right-click AnimalShelterDemo and select Run.
 
 text
 - Adopting oldest animal: Dog named Rex [order=0]
