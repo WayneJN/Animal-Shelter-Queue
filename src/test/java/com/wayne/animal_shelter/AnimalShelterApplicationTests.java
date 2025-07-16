@@ -4,10 +4,13 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AnimalShelterApplicationTests {
+public class AnimalShelterApplicationTests {
 
     @Test
     void contextLoads() {
+        // Ensures Spring Boot application starts successfully
     }
-
 }
+
+// Placeholder test — will expand when Spring components are added
+

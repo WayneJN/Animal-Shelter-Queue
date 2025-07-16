@@ -1,6 +1,6 @@
-package com.wayne.animal_shelter;
+package com.wayne.animal_shelter.model;
 
-abstract class Animal {
+public abstract class Animal {
     private String name;
     private int order; //arrival time of the animal
 
@@ -33,18 +33,11 @@ abstract class Animal {
         return this.order < other.getOrder();
     }
 
-    //Need a class for dogs. Inherits animal class. This allows "Dog" to have the same fields as Animal
-    class Dog extends Animal {
-        //Need a dog constructor
-        public Dog(String name) {
-            super(name);
-        }
+    //Fixed error where System output was showing hex names
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + " named " + getName() + " [order=" + getOrder() + "]";
     }
-    //Same thing for cats. Saves from Duplicating code
-    class Cat extends Animal {
-        public Cat(String name) {
-            super(name);
-        }
-    }
+
 }
 
