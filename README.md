@@ -25,16 +25,18 @@ Spring Boot setup for future scalability.
 
 ### 📦 Project Structure
 src/main/java/com/wayne/animal_shelter/
-├── Animal.java          # Abstract base class
-├── Dog.java             # Dog class extending Animal
-├── Cat.java             # Cat class extending Animal
-├── AnimalShelter.java   # Queue logic implementation
-├── AnimalShelterApplication.java    # Spring Boot entry point
-├── AnimalShelterDemo.java           # Console-based example run
-🚀 How to Run
+- ├── Animal.java          # Abstract base class
+- ├── Dog.java             # Dog class extending Animal
+- ├── Cat.java             # Cat class extending Animal
+- ├── AnimalShelter.java   # Queue logic implementation
+- ├── AnimalShelterApplication.java    # Spring Boot entry point
+- ├── AnimalShelterDemo.java           # Console-based example run
+  
+# 🚀 How to Run
 Use the AnimalShelterDemo class to observe shelter behavior in a console environment:
 
 bash
+
 # Run the demo class
 java com.wayne.animal_shelter.AnimalShelterDemo
 Expected output:
@@ -59,7 +61,7 @@ public class AnimalShelterApplicationTests {
 }
 This can be expanded in future phases to include proper unit and integration tests.
 
-*** 🧰 Technologies Used
+### 🧰 Technologies Used
 Java 17+
 
 Spring Boot 3.5+
