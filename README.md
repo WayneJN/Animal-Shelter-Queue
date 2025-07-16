@@ -26,12 +26,19 @@ Spring Boot setup for future scalability.
 ### 📦 Project Structure
 src/main/java/com/wayne/animal_shelter/
 ├── model/
+
 │   ├── Animal.java          # Abstract base class
+
 │   ├── Dog.java             # Dog class extending Animal
+
 │   └── Cat.java             # Cat class extending Animal
+
 ├── service/
+
 │   └── AnimalShelter.java   # Queue logic implementation
+
 ├── AnimalShelterApplication.java    # Spring Boot entry point
+
 └── AnimalShelterDemo.java           # Console-based demo
 
 # 🚀 How to Run
