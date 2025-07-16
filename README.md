@@ -1,4 +1,4 @@
-### 🐾 Animal Shelter Queue System
+## 🐾 Animal Shelter Queue System
 A Java application that simulates the queue logic used by an animal shelter to manage adoptions. The shelter only houses dogs and cats, and follows strict first-in, first-out (FIFO) rules for processing animals.
 
 ## 📌 Problem Description
@@ -40,10 +40,10 @@ java com.wayne.animal_shelter.AnimalShelterDemo
 Expected output:
 
 text
-Adopting oldest animal: Dog named Rex [order=0]
-Adopting oldest dog: Dog named Buddy [order=2]
-Adopting oldest cat: Cat named Whiskers [order=1]
-Is cat queue empty? false
+- Adopting oldest animal: Dog named Rex [order=0]
+- Adopting oldest dog: Dog named Buddy [order=2]
+- Adopting oldest cat: Cat named Whiskers [order=1]
+- Is cat queue empty? false
 Note: Make sure your Animal class has a proper toString() method to display names clearly.
 
 *** ✅ Testing
